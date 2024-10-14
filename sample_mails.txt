@@ -1,0 +1,63 @@
+From: rajesh.mishra@example.com
+To: hr@company.com
+Subject: Leave Request for Personal Work
+
+Body:
+Dear HR,
+I would like to request a leave for two days, from 12th October to 13th October, due to some personal work. I will ensure all pending tasks are completed before I go on leave. Please let me know if any further details are required.
+Thank you for your consideration.
+Best regards,
+Rajesh Mishra
+
+END
+
+From: sunita.kumar@example.com
+To: manager@company.com
+Subject: Request for Work From Home on 15th October
+
+Body:
+Dear Sir,
+I would like to request permission to work from home on 15th October due to a medical appointment. I will be available online during regular working hours and will complete my tasks as per schedule.
+Kind regards,
+Sunita Kumar
+
+END
+
+From: anjali.sen@example.com
+To: hr@company.com
+Subject: Sick Leave for 3 Days
+
+Body:
+Dear HR,
+I am feeling unwell and have been advised by my doctor to take rest for the next three days. Kindly approve my sick leave from 10th October to 12th October.
+Thank you for your understanding.
+Warm regards,
+Anjali Sen
+
+END
+
+From: vikas.nair@example.com
+To: supervisor@company.com
+Subject: Emergency Leave for a Family Matter
+
+Body:
+Dear Sir,
+I need to request an emergency leave starting today due to an urgent family matter. I will keep you updated on my availability and plan to resume work as soon as possible.
+Thank you for your support.
+Sincerely,
+Vikas Nair
+
+END
+
+From: arjun.patel@example.com
+To: hr@company.com
+Subject: Request for Leave Extension Due to Medical Reasons
+
+Body:
+Dear HR,
+I am writing to request an extension of my current leave by two more days (till 16th October) due to health reasons. I am still recovering and will provide a medical certificate if required.
+Thank you for your understanding.
+Regards,
+Arjun Patel
+
+END
