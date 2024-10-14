@@ -21,7 +21,18 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Function to summarize the email body
 def summarize_email(body):
-    """Generate a summary for the given email body using Google Generative AI."""
+    
+    """
+    Generate a summary for the given email body using Google Generative AI.
+
+    Parameters:
+    body (str): The content of the email.
+
+    Returns:
+    str: A brief summary of the email content.
+    
+    """
+
     generation_config = {
         "temperature": 1,
         "max_output_tokens": 8192,
@@ -43,7 +54,18 @@ def summarize_email(body):
 
 # Function to translate text to Spanish
 def translate_to_spanish(text):
-    """Translate the given text to Spanish using Google Generative AI."""
+    
+    """
+    Translate the given text to Spanish using Google Generative AI.
+
+    Parameters:
+    text (str): The text to be translated.
+
+    Returns:
+    str: The translated text in Spanish.
+    
+    """
+    
     translation_config = {
         "temperature": 0.5,
         "max_output_tokens": 8192,
