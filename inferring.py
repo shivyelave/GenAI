@@ -21,7 +21,20 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Function to analyze sentiment and generate appropriate messages
 def analyze_sentiment_and_generate_message(body):
-    """Analyze the sentiment of the review and generate a thank-you or apology message based on the sentiment."""
+
+    """
+    Description:
+    Analyze the sentiment of the review and generate a thank-you or apology message based on the sentiment.
+
+    Parameters:
+    body (str): The content of the review.
+
+    Returns:
+    tuple: A tuple containing:
+        - sentiment_response (str): The sentiment of the review, either 'positive' or 'negative'.
+        - response_message (str): A generated thank-you message for positive reviews or an apology message for negative reviews.
+    """
+    
     generation_config = {
         "temperature": 1,
         "max_output_tokens": 8192,
@@ -51,7 +64,20 @@ def analyze_sentiment_and_generate_message(body):
 
 # Function to extract item and company
 def extract_item_and_company(body):
-    """Extract the purchased item and the company name from the review."""
+    
+    """
+    Description:
+    Extract the purchased item and the company name from the review.
+
+    Parameters:
+    body (str): The content of the review.
+
+    Returns:
+    tuple: A tuple containing:
+        - item_response (str): The name of the purchased item, or 'unknown' if not identifiable.
+        - company_response (str): The name of the company that made the item, or 'unknown' if not identifiable.
+    """
+    
     generation_config = {
         "temperature": 0.7,
         "max_output_tokens": 8192,
